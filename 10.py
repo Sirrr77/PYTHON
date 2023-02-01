@@ -7,6 +7,6 @@ while True:
      else:
         print("Correct Password Ready to Execute \n")
         while True:
-            karat = float(input("enter amount"))
+            karat = float(input("enter amount  "))
             result = karat * 200
             print("result", result ,"milligram")
