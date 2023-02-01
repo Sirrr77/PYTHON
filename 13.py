@@ -10,3 +10,6 @@ while True:
             km = float(input("Enter amount:"))
             ac = km**2 * 247.105381
             print(ac)
+            chk=input("Press E to Exit or Enter to continue:  ")
+            if((chk=='E') or (chk=='e')):
+                sys.exit()
