@@ -8,6 +8,6 @@ while True:
         print("Correct Password Ready to Execute \n")
         while True:
             kj = float(input("enter"))
-            result = kj / 0.94781712
+            result = kj * 0.948
             print(result)
             sys.exit()
