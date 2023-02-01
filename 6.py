@@ -11,4 +11,6 @@ while True:
             amp = float(input("enter amp  "))
             watt = volt * amp
             print(watt)
-            sys.exit()
+            chk=input("Press E to Exit or Enter to continue:  ")
+            if((chk=='E') or (chk=='e')):
+             sys.exit()
