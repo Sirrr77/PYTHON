@@ -10,4 +10,6 @@ while True:
             kj = float(input("enter"))
             result = kj * 0.948
             print(result)
-            sys.exit()
+            chk=input("Press E to Exit or Enter to continue:  ")
+            if((chk=='E') or (chk=='e')):
+                sys.exit()
