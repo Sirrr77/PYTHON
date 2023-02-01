@@ -13,4 +13,6 @@ while True:
             Fahrenheit= float(input("Enter temperature in Fahrenheit: "))
             Kelvin = 5/9 * (Fahrenheit - 32) + 273.15
             print("The temperature in Kelvin is:",round(Kelvin,2))
-            sys.exit()
+            chk=input("Press E to Exit or Enter to continue:  ")
+            if((chk=='E') or (chk=='e')):
+                sys.exit()
